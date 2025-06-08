@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\MarketplaceSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|d:\\c#\\marketplacesolution\\paymentsservice\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|solutionrelative:paymentsservice\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|d:\\c#\\marketplacesolution\\paymentsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|solutionrelative:paymentsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|d:\\c#\\marketplacesolution\\ordersservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|solutionrelative:ordersservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|d:\\c#\\marketplacesolution\\ordersservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|solutionrelative:ordersservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123FAD79-E98B-4D05-B7DB-2F25B750BCAE}|ApiGateway\\ApiGateway.csproj|d:\\c#\\marketplacesolution\\apigateway\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123FAD79-E98B-4D05-B7DB-2F25B750BCAE}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123FAD79-E98B-4D05-B7DB-2F25B750BCAE}|ApiGateway\\ApiGateway.csproj|d:\\c#\\marketplacesolution\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123FAD79-E98B-4D05-B7DB-2F25B750BCAE}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|d:\\c#\\marketplacesolution\\paymentsservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|solutionrelative:paymentsservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123FAD79-E98B-4D05-B7DB-2F25B750BCAE}|ApiGateway\\ApiGateway.csproj|d:\\c#\\marketplacesolution\\apigateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{123FAD79-E98B-4D05-B7DB-2F25B750BCAE}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "PaymentsService\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "PaymentsService\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:08:11.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Program.cs",
+              "RelativeDocumentMoniker": "PaymentsService\\Program.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Program.cs",
+              "RelativeToolTip": "PaymentsService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:03:51.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Program.cs",
+              "RelativeDocumentMoniker": "OrdersService\\Program.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Program.cs",
+              "RelativeToolTip": "OrdersService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:03:31.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "OrdersService\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "OrdersService\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:03:15.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\ApiGateway\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\ApiGateway\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ApiGateway\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:02:16.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\Program.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\ApiGateway\\Program.cs",
+              "RelativeToolTip": "ApiGateway\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T11:01:49.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Dockerfile",
+              "RelativeDocumentMoniker": "PaymentsService\\Dockerfile",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Dockerfile",
+              "RelativeToolTip": "PaymentsService\\Dockerfile",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-08T10:59:59.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\ApiGateway\\Dockerfile",
+              "RelativeDocumentMoniker": "ApiGateway\\Dockerfile",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\ApiGateway\\Dockerfile",
+              "RelativeToolTip": "ApiGateway\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-08T09:31:20.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
