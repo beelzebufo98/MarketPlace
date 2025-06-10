@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "D:\\C#\\MarketplaceSolution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|d:\\c#\\marketplacesolution\\ordersservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|solutionrelative:ordersservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|d:\\c#\\marketplacesolution\\ordersservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|solutionrelative:ordersservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|d:\\c#\\marketplacesolution\\ordersservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|solutionrelative:ordersservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|d:\\c#\\marketplacesolution\\paymentsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|solutionrelative:paymentsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|d:\\c#\\marketplacesolution\\ordersservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|solutionrelative:ordersservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|d:\\c#\\marketplacesolution\\ordersservice\\controllers\\models\\createorderqueryapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|solutionrelative:ordersservice\\controllers\\models\\createorderqueryapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|d:\\c#\\marketplacesolution\\ordersservice\\controllers\\models\\ordersqueryapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|solutionrelative:ordersservice\\controllers\\models\\ordersqueryapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|d:\\c#\\marketplacesolution\\paymentsservice\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|solutionrelative:paymentsservice\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|d:\\c#\\marketplacesolution\\ordersservice\\application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|solutionrelative:ordersservice\\application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +43,20 @@
       "RelativeMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|solutionrelative:ordersservice\\application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|d:\\c#\\marketplacesolution\\ordersservice\\domain\\entities\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|solutionrelative:ordersservice\\domain\\entities\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|d:\\c#\\marketplacesolution\\ordersservice\\infrastructure\\repositories\\orderresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|solutionrelative:ordersservice\\infrastructure\\repositories\\orderresultrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|d:\\c#\\marketplacesolution\\paymentsservice\\application\\interfaces\\ipaymentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|solutionrelative:paymentsservice\\application\\interfaces\\ipaymentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|d:\\c#\\marketplacesolution\\paymentsservice\\application\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|solutionrelative:paymentsservice\\application\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|d:\\c#\\marketplacesolution\\paymentsservice\\application\\interfaces\\ipaymentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184329C3-2576-4375-8133-2D0A4F06E935}|PaymentsService\\PaymentsService.csproj|solutionrelative:paymentsservice\\application\\interfaces\\ipaymentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E5DA2DF-685B-4462-8AD2-8766665C3317}|OrdersService\\OrdersService.csproj|d:\\c#\\marketplacesolution\\ordersservice\\infrastructure\\data\\ordersentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,86 +78,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Application\\Interfaces\\IOrderService.cs",
-              "RelativeDocumentMoniker": "OrdersService\\Application\\Interfaces\\IOrderService.cs",
-              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Application\\Interfaces\\IOrderService.cs",
-              "RelativeToolTip": "OrdersService\\Application\\Interfaces\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T20:15:50.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Application\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "OrdersService\\Application\\Services\\OrderService.cs",
-              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Application\\Services\\OrderService.cs",
-              "RelativeToolTip": "OrdersService\\Application\\Services\\OrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T20:15:49.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderResultRepository.cs",
-              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Infrastructure\\Repositories\\OrderResultRepository.cs",
-              "RelativeDocumentMoniker": "OrdersService\\Infrastructure\\Repositories\\OrderResultRepository.cs",
-              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Infrastructure\\Repositories\\OrderResultRepository.cs",
-              "RelativeToolTip": "OrdersService\\Infrastructure\\Repositories\\OrderResultRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T19:59:24.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrdersEntityConfiguration.cs",
-              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Infrastructure\\Data\\OrdersEntityConfiguration.cs",
-              "RelativeDocumentMoniker": "OrdersService\\Infrastructure\\Data\\OrdersEntityConfiguration.cs",
-              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Infrastructure\\Data\\OrdersEntityConfiguration.cs",
-              "RelativeToolTip": "OrdersService\\Infrastructure\\Data\\OrdersEntityConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T20:06:27.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PaymentsEntityConfiguration.cs",
-              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Infrastructure\\Data\\PaymentsEntityConfiguration.cs",
-              "RelativeDocumentMoniker": "PaymentsService\\Infrastructure\\Data\\PaymentsEntityConfiguration.cs",
-              "ToolTip": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Infrastructure\\Data\\PaymentsEntityConfiguration.cs",
-              "RelativeToolTip": "PaymentsService\\Infrastructure\\Data\\PaymentsEntityConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-09T20:06:00.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrdersDbContext.cs",
-              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Infrastructure\\Data\\OrdersDbContext.cs",
-              "RelativeDocumentMoniker": "OrdersService\\Infrastructure\\Data\\OrdersDbContext.cs",
-              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Infrastructure\\Data\\OrdersDbContext.cs",
-              "RelativeToolTip": "OrdersService\\Infrastructure\\Data\\OrdersDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T20:25:22.94Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
@@ -137,16 +95,182 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "OrdersService\\appsettings.Development.json",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\appsettings.Development.json",
+              "RelativeToolTip": "OrdersService\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-10T19:08:13.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\appsettings.json",
+              "RelativeDocumentMoniker": "OrdersService\\appsettings.json",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\appsettings.json",
+              "RelativeToolTip": "OrdersService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-10T19:08:07.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Program.cs",
+              "RelativeDocumentMoniker": "OrdersService\\Program.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Program.cs",
+              "RelativeToolTip": "OrdersService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:04:56.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateOrderQueryApi.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Controllers\\Models\\CreateOrderQueryApi.cs",
+              "RelativeDocumentMoniker": "OrdersService\\Controllers\\Models\\CreateOrderQueryApi.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Controllers\\Models\\CreateOrderQueryApi.cs",
+              "RelativeToolTip": "OrdersService\\Controllers\\Models\\CreateOrderQueryApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:57:25.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "OrdersService\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "OrdersService\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswEkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:50:26.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrdersQueryApi.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Controllers\\Models\\OrdersQueryApi.cs",
+              "RelativeDocumentMoniker": "OrdersService\\Controllers\\Models\\OrdersQueryApi.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Controllers\\Models\\OrdersQueryApi.cs",
+              "RelativeToolTip": "OrdersService\\Controllers\\Models\\OrdersQueryApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:08:08.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Application\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "OrdersService\\Application\\Services\\OrderService.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Application\\Services\\OrderService.cs",
+              "RelativeToolTip": "OrdersService\\Application\\Services\\OrderService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:15:49.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderEntity.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Domain\\Entities\\OrderEntity.cs",
+              "RelativeDocumentMoniker": "OrdersService\\Domain\\Entities\\OrderEntity.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Domain\\Entities\\OrderEntity.cs",
+              "RelativeToolTip": "OrdersService\\Domain\\Entities\\OrderEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:08:20.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Application\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "OrdersService\\Application\\Interfaces\\IOrderService.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Application\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "OrdersService\\Application\\Interfaces\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:15:50.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderResultRepository.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Infrastructure\\Repositories\\OrderResultRepository.cs",
+              "RelativeDocumentMoniker": "OrdersService\\Infrastructure\\Repositories\\OrderResultRepository.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Infrastructure\\Repositories\\OrderResultRepository.cs",
+              "RelativeToolTip": "OrdersService\\Infrastructure\\Repositories\\OrderResultRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T19:59:24.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrdersEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Infrastructure\\Data\\OrdersEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "OrdersService\\Infrastructure\\Data\\OrdersEntityConfiguration.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Infrastructure\\Data\\OrdersEntityConfiguration.cs",
+              "RelativeToolTip": "OrdersService\\Infrastructure\\Data\\OrdersEntityConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:06:27.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaymentsEntityConfiguration.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Infrastructure\\Data\\PaymentsEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "PaymentsService\\Infrastructure\\Data\\PaymentsEntityConfiguration.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Infrastructure\\Data\\PaymentsEntityConfiguration.cs",
+              "RelativeToolTip": "PaymentsService\\Infrastructure\\Data\\PaymentsEntityConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:06:00.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrdersDbContext.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\OrdersService\\Infrastructure\\Data\\OrdersDbContext.cs",
+              "RelativeDocumentMoniker": "OrdersService\\Infrastructure\\Data\\OrdersDbContext.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\OrdersService\\Infrastructure\\Data\\OrdersDbContext.cs",
+              "RelativeToolTip": "OrdersService\\Infrastructure\\Data\\OrdersDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:25:22.94Z"
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "IPaymentsService.cs",
               "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Application\\Interfaces\\IPaymentsService.cs",
               "RelativeDocumentMoniker": "PaymentsService\\Application\\Interfaces\\IPaymentsService.cs",
@@ -159,13 +283,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "PaymentsService\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "PaymentsService\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwBQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T18:49:58.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Program.cs",
+              "RelativeDocumentMoniker": "PaymentsService\\Program.cs",
+              "ToolTip": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Program.cs",
+              "RelativeToolTip": "PaymentsService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T19:07:50.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Application\\Services\\PaymentService.cs",
               "RelativeDocumentMoniker": "PaymentsService\\Application\\Services\\PaymentService.cs",
               "ToolTip": "D:\\C#\\MarketplaceSolution\\PaymentsService\\Application\\Services\\PaymentService.cs",
               "RelativeToolTip": "PaymentsService\\Application\\Services\\PaymentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-09T20:15:19.049Z",
               "EditorCaption": ""
