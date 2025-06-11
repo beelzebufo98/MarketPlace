@@ -3,6 +3,7 @@ using OrdersService.Controllers.Models;
 using OrdersService.Domain.Entities;
 using OrdersService.Infrastructure.Repositories;
 using System.Text.Json.Serialization;
+using OrdersService.Domain;
 
 namespace OrdersService.Application.Services
 {
@@ -22,7 +23,7 @@ namespace OrdersService.Application.Services
         UserId = request.UserId,
         Amount = request.Amount,
         Description = request.Description,
-        Type = request.Type
+        Type = StatusType.New
       };
       await _orderResultRepository.Add(order);
     }

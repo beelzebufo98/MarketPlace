@@ -1,5 +1,8 @@
-﻿namespace OrdersService.Domain.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace OrdersService.Domain.Entities
 {
+  [Table("Orders", Schema = "OrdersService")]
   public sealed class OrderEntity
   {
     public Guid TaskId { get; set; }

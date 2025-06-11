@@ -8,7 +8,8 @@ namespace OrdersService.Infrastructure.Data
   public class OrdersDbContext : DbContext
   {
     public virtual DbSet<OrderEntity> Orders { get; set; }
-
+    public virtual DbSet<OutboxMessage> OutboxMessages { get; set; }
+    
     public OrdersDbContext(DbContextOptions<OrdersDbContext> options)
         : base(options) { }
 
@@ -17,6 +18,7 @@ namespace OrdersService.Infrastructure.Data
       modelBuilder.HasDefaultSchema("OrdersService");
 
       modelBuilder.ApplyConfiguration(new OrdersEntityConfiguration());
+      modelBuilder.ApplyConfiguration(new OutboxMessageConfiguration());
     }
   }
 }

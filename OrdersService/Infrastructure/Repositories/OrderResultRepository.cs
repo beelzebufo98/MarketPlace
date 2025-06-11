@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Text.Json;
+using Microsoft.EntityFrameworkCore;
 using OrdersService.Domain.Entities;
 using OrdersService.Infrastructure.Data;
 
@@ -15,8 +16,32 @@ namespace OrdersService.Infrastructure.Repositories
 
     public async Task Add(OrderEntity order)
     {
-      await _context.Orders.AddAsync(order);
-      await _context.SaveChangesAsync();
+      var outboxMessage = new OutboxMessage
+      {
+        Id = Guid.NewGuid(),
+        EventType = "OrderCreated",
+        EventData = JsonSerializer.Serialize(new 
+        {
+          OrderId = order.TaskId,
+          UserId = order.UserId,
+          Amount = order.Amount
+        }),
+        CreatedAt = DateTime.UtcNow,
+      };
+      using var transaction = await _context.Database.BeginTransactionAsync();
+        
+      try
+      {
+        await _context.Orders.AddAsync(order);
+        await _context.OutboxMessages.AddAsync(outboxMessage);
+        await _context.SaveChangesAsync();
+        await transaction.CommitAsync();
+      }
+      catch (Exception ex)
+      {
+        await transaction.RollbackAsync();
+        throw new Exception("Error creating order");
+      }
     }
 
     public async Task<List<OrderEntity>?> GetOrders()
