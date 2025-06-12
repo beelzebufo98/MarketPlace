@@ -9,6 +9,8 @@ namespace PaymentsService.Infrastructure.Data
   public class PaymentsDbContext : DbContext
   {
     public virtual DbSet<UserEntity> Users { get; set; }
+    public virtual DbSet<InboxMessagePay> InboxMessages { get; set; }
+    public virtual DbSet<OutboxMessagePay> OutboxMessages { get; set; }
 
     public PaymentsDbContext(DbContextOptions<PaymentsDbContext> options)
         : base(options) { }
@@ -18,6 +20,8 @@ namespace PaymentsService.Infrastructure.Data
       modelBuilder.HasDefaultSchema("PaymentsService");
 
       modelBuilder.ApplyConfiguration(new PaymentsEntityConfiguration());
+      modelBuilder.ApplyConfiguration(new InboxPaymentsEntityConfiguration());
+      modelBuilder.ApplyConfiguration(new OutboxPaymentsEntityConfiguration());
     }
   }
 }
