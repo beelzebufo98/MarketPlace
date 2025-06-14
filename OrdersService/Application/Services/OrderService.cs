@@ -48,9 +48,20 @@ namespace OrdersService.Application.Services
       return result;
     }
 
-    public Task UpdateOrder(OrdersQueryApi request)
+    public async Task UpdateOrder(OrdersQueryApi request)
     {
-      throw new NotImplementedException();
+      var current = await _orderResultRepository.GetOrder(request.TaskId);
+      if (current == null)
+      {
+        throw new Exception();
+      }
+      var newOrder = new OrderEntity
+      {
+        TaskId = request.TaskId,
+        Description = request.Description,
+      };
+
+      await _orderResultRepository.Update(newOrder);
     }
   }
 }

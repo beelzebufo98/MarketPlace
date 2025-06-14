@@ -1,0 +1,110 @@
+name: 'marketplace'
+
+volumes:
+  postgres_orders_data:
+  postgres_payments_data:
+
+networks:
+  app_network:
+    driver: bridge
+
+services:
+  api-gateway:
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    container_name: api-gateway
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://*:5000
+    ports:
+      - "5000:5000"
+    depends_on:
+      - orders
+      - payments
+    profiles:
+      - prod
+    networks:
+      - app_network
+    
+  orders:
+    build:
+      context: .
+      dockerfile: OrdersService/Dockerfile
+    container_name: orders
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://*:5188
+    ports:
+      - "5188:5188"
+    depends_on:
+      postgres-orders:
+        condition: service_healthy
+    profiles:
+      - prod
+    networks:
+      - app_network
+  
+  payments:
+    build:
+      context: .
+      dockerfile: PaymentsService/Dockerfile
+    container_name: payments
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://*:5105
+    ports:
+      - "5105:5105"
+    depends_on:
+      postgres-file-storing:
+        condition: service_healthy
+    profiles:
+      - prod
+    networks:
+      - app_network
+  
+  postgres-orders:
+    image: postgres:16-alpine
+    container_name: postgres-orders
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_orders_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-U", "postgres" ]
+      interval: 5s
+      retries: 10
+      start_period: 10s
+      timeout: 5s
+    profiles:
+      - dev
+      - prod
+    networks:
+      - app_network
+  
+  postgres-payments:
+    image: postgres:16-alpine
+    container_name: postgres-payments
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_payments_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-U", "postgres" ]
+      interval: 5s
+      retries: 10
+      start_period: 10s
+      timeout: 5s
+    profiles:
+      - dev
+      - prod
+    networks:
+      - app_network

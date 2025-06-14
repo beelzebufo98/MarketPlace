@@ -35,11 +35,16 @@ namespace PaymentsService.Controllers
 
     [HttpPut]
     [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult> UpdatePay([FromQuery] PaymentsQueryApi request)
     {
       try
       {
+        if (request.amount < 0)
+        {
+          return BadRequest("Balance should not be negative");
+        }
         var amount = await _paymentsService.UpdateBalance(request.userId, request.amount);
         return Ok(amount);
       }

@@ -52,7 +52,7 @@ namespace OrdersService.Infrastructure.Repositories
 
     public async Task<OrderEntity?> GetOrder(Guid taskId)
     {
-      var result = await _context.Orders.FirstOrDefaultAsync(o => o.TaskId == taskId);
+      var result = await _context.Orders.AsNoTracking().FirstOrDefaultAsync(o => o.TaskId == taskId);
       return result;
     }
 
